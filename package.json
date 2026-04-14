@@ -1,5 +1,5 @@
 {
-  "name": "run-down",
+  "name": "fortnite-rn",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -37,7 +37,14 @@
   },
   "jest": {
     "preset": "react-native",
-    "moduleFileExtensions": ["ts", "tsx", "js", "jsx", "json", "node"],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ],
     "testRegex": "(/__tests__/.*|(\\.|/)(test|spec))\\.(jsx?|tsx?)$",
     "transform": {
       "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
@@ -45,5 +52,18 @@
     "transformIgnorePatterns": [
       "node_modules/(?!(react-native|@react-native|zustand)/)"
     ]
-  }
+  },
+  "description": "Fortnite-style battle royale in React Native \u2014 GameEngine, BotService, WeaponService, MeteorManager",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudygetty-ai/fortnite-rn.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "react-native",
+    "game",
+    "battle-royale",
+    "typescript",
+    "mobile-game"
+  ]
 }
