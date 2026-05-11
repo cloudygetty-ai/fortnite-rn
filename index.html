@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fortnite RN — Mobile Experience</title>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700;900&family=DM+Mono:wght@300;400;500&display=swap" rel="stylesheet"/>
+<style>
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:#08090d;color:#f5f0e8;font-family:'DM Mono',monospace;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center}
+  .bg{position:fixed;inset:0;background:radial-gradient(ellipse at 50% 0%,#0a0015 0%,#08090d 60%);z-index:0}
+  .container{position:relative;z-index:1;text-align:center;padding:2rem}
+  .logo{font-family:'Cinzel',serif;font-size:clamp(2.5rem,7vw,5.5rem);font-weight:900;letter-spacing:0.08em;background:linear-gradient(135deg,#7c3aed 0%,#a855f7 50%,#6d28d9 100%);-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;margin-bottom:0.5rem}
+  .tagline{font-size:clamp(0.75rem,1.8vw,0.95rem);letter-spacing:0.3em;text-transform:uppercase;color:#6b5c8a;margin-bottom:3rem}
+  .badge{display:inline-block;background:rgba(124,58,237,0.1);border:1px solid rgba(124,58,237,0.3);color:#a855f7;font-size:0.75rem;letter-spacing:0.2em;padding:0.5rem 1.5rem;border-radius:2px;text-transform:uppercase;margin-bottom:2rem}
+  .desc{max-width:500px;margin:0 auto 3rem;color:#6b5c8a;font-size:0.9rem;line-height:1.8}
+  .cta{display:inline-block;background:linear-gradient(135deg,#7c3aed,#6d28d9);color:#fff;font-family:'Cinzel',serif;font-weight:700;font-size:0.85rem;letter-spacing:0.15em;text-transform:uppercase;padding:1rem 2.5rem;text-decoration:none;border-radius:2px}
+  .divider{width:60px;height:1px;background:linear-gradient(90deg,transparent,#7c3aed,transparent);margin:3rem auto}
+</style>
+</head>
+<body>
+<div class="bg"></div>
+<div class="container">
+  <div class="badge">React Native</div>
+  <div class="logo">FORTNITE RN</div>
+  <div class="tagline">Mobile-First Battle Royale Companion</div>
+  <p class="desc">Real-time stats, loadout builder, and match history. Available on iOS and Android.</p>
+  <a href="mailto:cloudygetty@gmail.com" class="cta">Join Waitlist</a>
+  <div class="divider"></div>
+</div>
+</body>
+</html>
